@@ -1,0 +1,27 @@
+
+*{
+box-sizing: content-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+ 
+#welcome{
+    background-color: brown;
+    color: burlywood;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.h2{
+    font-size: 65px;
+}
+
+.p{
+    font-size: 20px;
+}
