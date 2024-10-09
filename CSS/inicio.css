@@ -4,7 +4,7 @@ box-sizing: content-box;
 }
 
 body{
-    background-color: aliceblue;
+    background-color: #F5F5DC;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
 }
@@ -25,3 +25,24 @@ body{
 .p{
     font-size: 20px;
 }
+
+#SONOTRO{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 90vh;
+        color: white;
+        background-image: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)), url(IMG/banner.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+
+#SONOTRO h1{
+    color: burlywood;
+    font-size: 64px;
+}
+
