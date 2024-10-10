@@ -12,8 +12,8 @@ body{
 
  
 #welcome{
-    background-color: brown;
-    color: burlywood;
+    background-color:maroon;
+    color: #B87333;
     padding: 10px;
     margin: auto;
     border-radius: 20px;
@@ -32,11 +32,12 @@ body{
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        height: 90vh;
+        height: 80vh;
+        width: auto;
         color: white;
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url(IMG/banner.jpg);
+                rgba(0, 0, 0, 0.5)), url(https://teleantillas.com.do/wp-content/uploads/2024/04/Cafe-en-Salamanca.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -51,7 +52,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--brown);
+    background-color:#6F4E37;
     padding: 10px 20px;
 }
 
@@ -70,14 +71,14 @@ body{
 }
 
 .nav-links a {
-    color: var(--cream);
+    color: #F5F5DC;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
 }
 
 .nav-links a:hover {
-    color: var(--gold);
+    color:#B87333 ;
 }
 
 /* Estilos de la hamburguesa */
@@ -92,8 +93,40 @@ body{
 .bar {
     width: 30px;
     height: 3px;
-    background-color: var(--cream);
+    background-color: #F5F5DC;
     border-radius: 5px;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 8px;
+    width: 40%;
+    height:40% ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 1em;
+    color: #333;
 }
 
 /* Responsividad */
@@ -103,7 +136,7 @@ body{
         position: absolute;
         top: 60px;
         right: 0;
-        background-color: var(--brown);
+        background-color: brown;
         width: 100%;
         flex-direction: column;
         text-align: center;
@@ -120,31 +153,5 @@ body{
     .nav-links li {
         margin: 20px 0;
     }
-}
 
-
-.card-container {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-}
-
-.card {
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    width: 30%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.card h3 {
-    margin-bottom: 10px;
-    font-size: 1.5em;
-}
-
-.card p {
-    font-size: 1em;
-    color: #333;
 }
