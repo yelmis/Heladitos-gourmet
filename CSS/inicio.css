@@ -5,14 +5,14 @@ padding: 4px;
 }
 
 body{
-    background: #F5F5DC  url() ; 
+    background: #9FB4FF url() ; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
 }
 
  
 #welcome{
-    background-color:maroon;
+    background-color:#FFF56D;
     color: #B87333;
     padding: 10px;
     margin: auto;
@@ -37,7 +37,7 @@ body{
         color: white;
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url();
+                rgba(0, 0, 0, 0.5)), url(https://image.freepik.com/foto-gratis/mujer-atractiva-comiendo-helado-paleta_23-2148193879.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -52,7 +52,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#6F4E37;
+    background-color:#2F0F5D;
     padding: 10px 20px;
 }
 
@@ -71,9 +71,9 @@ body{
 }
 
 .nav-links a {
-    color: #F5F5DC;
+    color: orange;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
 }
 
