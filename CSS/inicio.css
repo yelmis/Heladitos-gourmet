@@ -2,10 +2,11 @@
 *{
 box-sizing: content-box;
 padding: 4px;
+margin: auto;
 }
 
 body{
-    background: #0D92F4 url() ; 
+    background: #7286D3 url() ; 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
 }
@@ -73,14 +74,14 @@ body{
 }
 
 .nav-links a {
-    color: #705C53;
+    color: #3C3D37;
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
 }
 
 .nav-links a:hover {
-    color:#B87333 ;
+    color:#DFCCFB ;
 }
 
 /* Estilos de la hamburguesa */
@@ -95,49 +96,94 @@ body{
 .bar {
     width: 30px;
     height: 3px;
-    background-color: #000000;
+    background-color: #f9f9f9;
     border-radius: 5px;
 }
 
-
-.card-container {
+.container-card {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    width: 80%;
+    max-width: 1100px;
+    margin: auto;
+}
 
+.title-cards {
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #7a7a7a;
 }
 
 .card {
-    background-color: #BBE9FF;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 8px;
-    width: 40%;
-    height:40% ;
-    box-shadow: 0 20px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease-out;
+    cursor: default;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card img {
+    width: 100%;
+    height: 210px;
+}
+
+.card .contenido-card {
+    padding: 15px;
     text-align: center;
-    border-radius: 10px;
-
 }
 
-.card{
-width: 450px;
-height: 300px;
+.card .contenido-card h3 {
+    margin-bottom: 15px;
+    color: #7a7a7a;
 }
 
-.card h3 {
-    margin-bottom: 10px;
-    font-size: 1.5em;
-    color: brown;
+.card .contenido-card p {
+    line-height: 1.8;
+    color: #6a6a6a;
+    font-size: 14px;
+    margin-bottom: 5px;
 }
 
-.card p {
-    font-size: 1em;
-    color: #B87333;
-
-
+.card .contenido-card a {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+    margin-bottom: 5px;
 }
+
+.card .contenido-card a:hover {
+    background: #2fb4cc;
+    color: #fff;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .container-card {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin: 15px;
+    }
+}
+
+
+
 
 /* Responsividad */
 @media (max-width: 768px) {
@@ -146,7 +192,7 @@ height: 300px;
         position: absolute;
         top: 60px;
         right: 0;
-        background-color: brown;
+        background-color: #DFCCFB;
         width: 100%;
         flex-direction: column;
         text-align: center;
@@ -164,4 +210,84 @@ height: 300px;
         margin: 20px 0;
     }
 
+        #SONOTRO h1 {
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
 }
+
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: #286bcf;
+    min-height: 100px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+
+.icon-elem {
+    list-style: none;
+}
+
+.icon {
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transform: translateY(-10px);
+    color: #3C3D37;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.menu-elem {
+    list-style: none;
+}
+
+.menu-icon {
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.menu-icon:hover {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
