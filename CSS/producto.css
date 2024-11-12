@@ -1,61 +1,61 @@
-
 *{
-box-sizing: content-box;
-padding: 4px;
-margin: auto;
+ box-sizing: border-box;
 }
 
-body{
-    background: #7286D3 url() ; 
+body {
+    background: #ccd4f4 url();
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
 }
 
- 
-#welcome{
-    background-color:#DFCCFB;
-    color: #705C53;
-    padding: 4px;
-    margin: auto;
-    border-radius: 24px;
-}
+  #producto {
+      background-color: #DFCCFB;
+      color: #705C53;
+      padding: 10px;
+      margin: auto;
+      border-radius: 20px;
+  }
 
-.h2{
+  .espacio{
+    background-color:#A594F9;
+    font-family: 'Happy Monday', Times, serif;
+    padding: 20px;
+  }
+
+        .espacio-2{
+            background-color: #ccd4f4;
+            font-family: 'Happy Monday', serif;
+            padding: 20px;
+        }
+
+        .espacio h2{
+            font-family: "Anton SC", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+        }
+        
+        .espacio-2 h2{
+        
+                font-family: "Anton SC", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+        
+.h2 {
     font-size: 65px;
     color: #9A7E6F;
 }
 
-.p{
+.p {
     font-size: 28px;
     color: #9A7E6F;
-}
-
-#SONOTRO{
-    display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        height: 80vh;
-        width: auto;
-        color: #3C3D37;
-        background-image: linear-gradient(0deg,
-                rgba(0, 0, 0, 0.5),
-                rgba(0, 0, 0, 0.5)), url(https://image.freepik.com/foto-gratis/mujer-atractiva-comiendo-helado-paleta_23-2148193879.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-}
-
-#SONOTRO h1{
-    color: #D1E9F6;
-    font-size: 80px; 
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#A594F9;
+    background-color: #A594F9;
     padding: 10px 20px;
 }
 
@@ -81,7 +81,7 @@ body{
 }
 
 .nav-links a:hover {
-    color:#DFCCFB ;
+    color: #DFCCFB;
 }
 
 /* Estilos de la hamburguesa */
@@ -172,51 +172,13 @@ body{
     color: #fff;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-    .container-card {
-        flex-wrap: wrap;
-    }
-
-    .card {
-        margin: 15px;
-    }
+#producto-fila-1{
+    background-color: #3C3D37;
 }
 
-
-
-
-/* Responsividad */
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        background-color: #DFCCFB;
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .hamburger {
-        display: flex;
-    }
-
-    .nav-links li {
-        margin: 20px 0;
-    }
-
-        #SONOTRO h1 {
-        font-size: 50px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }
+#producto-fila-2{
+    background-color: #3C3D37;
 }
-
-
 
 .footer {
     position: relative;
@@ -290,4 +252,3 @@ body{
     margin-bottom: 10px;
     font-size: 20px;
 }
-
