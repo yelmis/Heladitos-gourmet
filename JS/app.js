@@ -1,7 +1,8 @@
-const hamburger = document.getElementById('hamburger');
-const navLinks = document.getElementById('navLinks');
+const mobileMenu = document.getElementById('mobile-menu');
+const navLinks = document.querySelector('.nav-links');
 
-hamburger.addEventListener('click', () => {
+mobileMenu.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
 
+const aleta = alert('Bienvenido a nuestros pagina web')
