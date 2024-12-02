@@ -5,7 +5,7 @@
 }
 
 body{
-        background-color: blueviolet;
+        background-color: cornsilk;
         /* Cambia la ruta a la ubicación de tu imagen */
         background-size: cover;
         /* Ajusta la imagen para cubrir todo el fondo */
@@ -55,14 +55,14 @@ ul li :hover{
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
-    background-color: #ececec;
+    background-color: wheat;
 }
 
 .container_welcome{
 margin: 50px;
 padding: 60px;
 border-radius: 8px;
-background-color: chartreuse;
+background-color: rgb(190, 135, 241);
 }
 
 /*navegado inicio*/
@@ -76,8 +76,9 @@ background-color: chartreuse;
     position: relative;
 }
 
+
 .logo {
-    color: #fff;
+    color: cornsilk;
     font-size: 24px;
     font-weight: bold;
 }
@@ -273,7 +274,7 @@ background-color: #3C3D37;
 .footer {
     position: relative;
     width: 100%;
-    background: #286bcf;
+    background:#333;
     min-height: 100px;
     padding: 10px 30px;
     display: flex;
@@ -296,7 +297,7 @@ background-color: #3C3D37;
 }
 
 .icon {
-    color: white;
+    color:whitesmoke;
     font-size: 32px;
     display: inline-block;
     margin: 0 10px;
@@ -322,7 +323,7 @@ background-color: #3C3D37;
 }
 
 .menu-icon {
-    color: white;
+    color: blueviolet;
     font-size: 20px;
     display: inline-block;
     text-decoration: none;
@@ -333,10 +334,11 @@ background-color: #3C3D37;
 
 .menu-icon:hover {
     opacity: 1;
+   
 }
 
 .text {
-    color: white;
+    color: rgb(190, 135, 241);
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
