@@ -5,7 +5,7 @@
 }
 
 body{
-        background-color: blueviolet;
+        background-color: burlywood;
         /* Cambia la ruta a la ubicación de tu imagen */
         background-size: cover;
         /* Ajusta la imagen para cubrir todo el fondo */
@@ -55,16 +55,26 @@ ul li :hover{
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
-    background-color: #ececec;
+    background-color: bisque;
 }
 
 .container_welcome{
 margin: 50px;
 padding: 60px;
 border-radius: 8px;
-background-color: chartreuse;
+background-color:burlywood;
+
 }
 
+.container_welcome h2{
+    font-size: 64px;
+    color: rgb(255, 232, 203);
+}
+
+.container_welcome p{
+    font-size: 18px;
+    color: whitesmoke;
+}
 /*navegado inicio*/
 
 .navbar {
@@ -273,7 +283,7 @@ background-color: #3C3D37;
 .footer {
     position: relative;
     width: 100%;
-    background: #286bcf;
+    background: #333;
     min-height: 100px;
     padding: 10px 30px;
     display: flex;
