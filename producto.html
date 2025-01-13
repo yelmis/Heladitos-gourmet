@@ -30,6 +30,45 @@
         </header>
     </Section>
 
+    <main class="container-world">
+        <section class="productos">
+            <h2>Productos Disponibles</h2>
+            <div class="productos-grid">
+                <div class="producto-item">
+                    <img src="IMG/chocolate.png" alt="Helado de Chocolate">
+                    <h3>Chocolate Supremo</h3>
+                    <p>Un clásico irresistible con el mejor cacao.</p>
+                    <p><strong>Precio:</strong> $3.50</p>
+                    <button class="btn-comprar">Añadir al carrito</button>
+                </div>
+
+                <div class="producto-item">
+                    <img src="IMG/fresa.png" alt="Helado de Fresa">
+                    <h3>Fresa Natural</h3>
+                    <p>El sabor fresco y dulce de las mejores fresas.</p>
+                    <p><strong>Precio:</strong> $3.00</p>
+                    <button class="btn-comprar">Añadir al carrito</button>
+                </div>
+
+                <div class="producto-item">
+                    <img src="IMG/mango.png" alt="Helado de Mango">
+                    <h3>Mango Tropical</h3>
+                    <p>Un toque tropical con la frescura del mango.</p>
+                    <p><strong>Precio:</strong> $3.20</p>
+                    <button class="btn-comprar">Añadir al carrito</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Lógica para manejar "Añadir al carrito"
+        document.querySelectorAll('.btn-comprar').forEach(button => {
+            button.addEventListener('click', () => {
+                alert('Producto añadido al carrito');
+            });
+        });
+    </script>
 
     <section class="pie">
     
