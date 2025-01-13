@@ -3,62 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuestros Productos</title>
+    <link rel="stylesheet" href="CSS/producto.css">
+    <title>Productos</title>
 </head>
 <body>
-
-    <Section id="nav">
-        <header>
-            <nav class="navbar">
-                <div class="logo">
-                    <img src="IMG/logo.png" alt="Heladitos gourmet">
-                </div>
-                <ul class="nav-links" id="navLinks">
-                    <li><a href="#SONOTRO">inicio</a></li>
-                    <li><a href="producto.html">Productos</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-                <div class="hamburger" id="hamburger">
-                    <span class ="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav>
-        </header>
-    </Section>
-
-    <main class="container-world">
-        <section class="productos">
-            <h2>Productos Disponibles</h2>
-            <div class="productos-grid">
-                <div class="producto-item">
-                    <img src="IMG/chocolate.png" alt="Helado de Chocolate">
-                    <h3>Chocolate Supremo</h3>
-                    <p>Un clásico irresistible con el mejor cacao.</p>
-                    <p><strong>Precio:</strong> $3.50</p>
-                    <button class="btn-comprar">Añadir al carrito</button>
-                </div>
-
-                <div class="producto-item">
-                    <img src="IMG/fresa.png" alt="Helado de Fresa">
-                    <h3>Fresa Natural</h3>
-                    <p>El sabor fresco y dulce de las mejores fresas.</p>
-                    <p><strong>Precio:</strong> $3.00</p>
-                    <button class="btn-comprar">Añadir al carrito</button>
-                </div>
-
-                <div class="producto-item">
-                    <img src="IMG/mango.png" alt="Helado de Mango">
-                    <h3>Mango Tropical</h3>
-                    <p>Un toque tropical con la frescura del mango.</p>
-                    <p><strong>Precio:</strong> $3.20</p>
-                    <button class="btn-comprar">Añadir al carrito</button>
-                </div>
-            </div>
-        </section>
-    </main>
     
+<section>
+    <header>
+
+        <nav class="navbar">
+            <div class="logo">Heladitos Gourmet</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#SONOTRO">inicio</a></li>
+                <li><a href="producto.html">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+</section>
+
+<main class="container-world">
+    <section class="productos">
+        <h2>Productos Disponibles</h2>
+        <div class="productos-grid">
+            <div class="producto-item">
+                <img src="IMG/chocolate.png" alt="Helado de Chocolate">
+                <h3>Chocolate Supremo</h3>
+                <p>Un clásico irresistible con el mejor cacao.</p>
+                <p><strong>Precio:</strong> $3.50</p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+
+            <div class="producto-item">
+                <img src="IMG/fresa.png" alt="Helado de Fresa">
+                <h3>Fresa Natural</h3>
+                <p>El sabor fresco y dulce de las mejores fresas.</p>
+                <p><strong>Precio:</strong> $3.00</p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+
+            <div class="producto-item">
+                <img src="IMG/mango.png" alt="Helado de Mango">
+                <h3>Mango Tropical</h3>
+                <p>Un toque tropical con la frescura del mango.</p>
+                <p><strong>Precio:</strong> $3.20</p>
+                <button class="btn-comprar">Añadir al carrito</button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<section class="pie">
+
+    <footer class="footer">
+        <ul class="social-icon">
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="logo-whatsapp"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="mail-outline"></ion-icon>
+                </a>
+            </li>
+        </ul>
+        <ul class="menu">
+            <li class="menu-elem">
+                <a href="index.html" class="menu-icon"> Inicio </a>
+            </li>
+            <li class="menu-elem">
+                <a href="" class="menu-icon"> Equipo </a>
+            </li>
+            <li class="menu-elem">
+                <a href="" class="menu-icon"> Contacto </a>
+            </li>
+            <li class="menu-elem">
+                <a href="" class="menu-icon"> Video </a>
+            </li>
+            <li class="menu-elem">
+                <a href="" class="menu-icon"> Sobre Nosotros </a>
+            </li>
+        </ul>
+        <p class="text">@2025Año| Heladitos Gourmet</p>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </footer>
+
+</section>
+
+<script>
+    // Lógica para manejar "Añadir al carrito"
+    document.querySelectorAll('.btn-comprar').forEach(button => {
+        button.addEventListener('click', () => {
+            alert('Producto añadido al carrito');
+        });
+    });
+</script>
+
 </body>
 </html>
