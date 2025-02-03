@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: burlywood !important;
+    /* Cambia la ruta a la ubicación de tu imagen */
+    background-size: cover;
+    /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-position: center;
+    /* Centra la imagen en el fondo */
+    height: 100vh;
+    /* Asegura que el fondo cubra toda la altura de la ventana */
+    margin: 0;
+    /* Elimina el margen predeterminado del body */
+}
+
+.container_world{
+     max-width: 1200px;
+     margin: 20px auto;
+     padding: 20px;
+     border-radius: 10px;
+     background-color: wheat;
+}
+
+h1{
+    font-size: 42px;
+    color: black;
+}
+
+h2{
+    font-family: 'blanck';
+    font-size: 24px;
+    color: white;
+}
+
+.bnt_1{
+    font-size:20px ;
+    background-color: darkkhaki;
+    color: cornsilk;
+    border-radius: 10px;
+}
