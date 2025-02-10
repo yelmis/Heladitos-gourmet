@@ -226,14 +226,14 @@ background-color: #91d9e4;
 }
 
 .destacado-item h3 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     color: #333;
     margin-bottom: 10px;
 }
 
 .destacado-item p {
-    font-size: 1em;
-    color: #666;
+    font-size: 1.2em;
+    color: white;
 }
 
 @media (max-width: 700px) {
