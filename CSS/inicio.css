@@ -423,6 +423,10 @@ background-color: #3C3D37;
 
 /*Final*/
 
+.text{
+    color: #ddd;
+}
+
 .footer {
     position: relative;
     width: 100%;
