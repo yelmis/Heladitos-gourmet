@@ -4,32 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/producto.css">
+    <link rel="stylesheet" href="CSS/navegador.css">
     <link rel="icon" href="IMG/png.png">
     <title>Productos - Delicias Frias</title>
 </head>
 <body>
     
 <section>
-    <header>
+  <header>
+    <div class="top-bar">
+      <!-- Menú de navegación dentro del banner -->
+      <nav>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul id="nav-links">
+          <li><a href="index.php">Inicio</a></li>
+          <li><a href="producto.php">Productos</a></li>
+          <li><a href="blog.php">Novedades</a></li>
+          <li><a href="contacto.php">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Fondo oscuro cuando el menú está abierto -->
+    <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+  </header>
 
-        <nav class="navbar">
-            <div class="logo">Delicias Frias</div>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="index.html">inicio</a></li>
-                <li><a href="producto.html">Productos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
-</section>
 
+       <script>
+        function toggleMenu() {
+    document.getElementById("nav-links").classList.toggle("active");
+    document.getElementById("overlay").classList.toggle("active");
+  }
+       </script>
+        
+    </section>
 
         <main class="container-world">
             <h1>Nuestros Productos</h1>

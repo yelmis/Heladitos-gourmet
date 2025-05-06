@@ -137,84 +137,109 @@ ul li :hover{
 }
 
 /*navegado inicio*/
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 30px 50px;
+/* Contenedor del banner */
+.top-bar {
     position: relative;
-}
-
-.logo {
-    color: #fff;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.nav-links {
-    list-style: none;
+    width: auto;
+    height: 290px; /* Ajusta según necesites */
+    background-image: url("IMG/banner.gif")!important;
     display: flex;
-}
-
-.nav-links li {
-    margin: 0 15px;
-    
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 5px 10px;
-    transition: background 0.3s;
-}
-
-.nav-links a:hover {
-    background-color: #555;
-    border-radius: 8px;
-}
-
-.menu-toggle {
-    display: none;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-repeat :no-repeat;
+  }
+  
+  /* Imagen de fondo */
+  .banner-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  /* Menú dentro del banner */
+  nav {
+    position: relative;
+    z-index: 3; /* Para que esté sobre la imagen */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  /* Botón hamburguesa */
+  .menu-toggle {
+    font-size: 60px;
     cursor: pointer;
-}
+    color: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 24px; /* Mueve la hamburguesa a la derecha */
+    z-index: 3;
+    border-radius: 3px;
+    background-color: black;
+  }
+  
+  .menu-toggle:active{
+    color: red;
+  }
 
-.menu-toggle .bar {
-    height: 5px;
-    width: 30px;
-    background-color: #fff;
-    margin: 3px 0;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        background-color: #333;
-        width: 100%;
-    }
-     
-    .nav-links a{
-        font-size: 15px;
-
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .menu-toggle {
-        display: flex;
-    } 
-        
-}
+  /* Enlaces del menú */
+  nav ul {
+    list-style: none;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+  }
+  
+  nav ul li {
+    margin: 15px 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 15, 15);
+    font-size:40px;
+    font-weight: bold;
+  }
+  nav ul li a :hover{
+    color: cornflowerblue;
+    font-size: 60px;
+  }
+  
+  /* Mostrar menú cuando se activa */
+  nav ul.active {
+    display: flex;
+  }
+  
+  /* Fondo oscuro cuando el menú está abierto */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    z-index: 2;
+  }
+  
+  .overlay.active {
+    display: block;
+  }
+  
 /*Navegado final*/
 
 
