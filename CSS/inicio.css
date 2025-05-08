@@ -76,7 +76,7 @@ background-color: #91d9e4;
 @media(max-width: 700px) {
     .container_welcome h2 {
         font-size: 28px;
-        
+
 }
 }
 .container_welcome p{
@@ -137,6 +137,19 @@ background-color: #91d9e4;
     font-size: 1.6em;
     color: #333;
     margin-bottom: 10px;
+}
+
+.estrella {
+    font-size: 35px;
+    color: #000000;
+    margin-right: 5px;
+   text-align: center;
+   height: 40px;
+
+}
+
+#otro{
+   font-size: 30px;
 }
 
 .destacado-item p {

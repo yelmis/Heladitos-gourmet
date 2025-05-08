@@ -45,7 +45,7 @@
     <section>
         <div class="container_welcome">
               <div class="section-welcome">
-                <h2>Bienvenido a Delicias frias</h2>
+                <h2>Nuestras Novedades</h2>
                 <br>
                 <p>¡Disfruta de los mejores helados gourmet de la ciudad!</p>
               </div>
@@ -82,65 +82,71 @@
     </section>
 
     <section>
-       
+      
         <div class="container">
+             <h2 class="estrella"> Nosotros sabor estrella</h2>
             <div class="text-image">
-                <img src="IMG/bannerjjj.png" alt="logo" class="imagen">
+                <img src="https://remolacha.net/wp-content/uploads/2020/07/Screen-Shot-2020-07-25-at-10.29.37-AM.png" alt="logo" class="imagen">
                 <div class="texto">
-                    <h2>Acerca de Nosotros</h2>
+                   
                     <br>
-                    <p>Nuestra empresa nació como parte de un proyecto escolar que nos desafió a salir de nuestra zona de confort y desarrollar
-                    un producto innovador que no solo cumpliera con una necesidad, sino que también tuviera el poder de llenar de felicidad
-                    a nuestros clientes. Desde el principio, nos impulsó el deseo de crear algo especial, un producto que marcara la
-                    diferencia en la vida de las personas.</p>
+                    <p>Descubre el sabor que nos representa. Nuestro helado de batata con pasas es una deliciosa fusión de tradición y originalidad.
+                         Creado con batatas dulces seleccionadas y pasas jugosas, este sabor estrella rinde homenaje a nuestras raíces con una textura suave,
+                          cremosa y un dulzor natural inconfundible. 
+                        Cada cucharada es un viaje al corazón de lo auténtico, ideal para quienes buscan algo diferente, casero y lleno de identidad.</p>
                     <br>
-                    <p>Durante este proceso, aprendimos a trabajar en equipo, a identificar oportunidades en el mercado y enfrentar desafíos
-                    reales. Comenzamos investigando qué aspectos de la vida cotidiana podrían ser mejorados con creatividad e ingenio, y
-                    descubrimos que la felicidad genuina nace de los pequeños detalles.</p>
+                    
                 </div>
             </div>
             <div class="caja-texto">
-                <p>Sabemos que emprender no es fácil, pero este reto nos permitió descubrir habilidades que no sabíamos que teníamos y
-                crecer personal y profesionalmente.</p>
+                <p> Donde la tradición se encuentra con la innovación. 
+                    Este helado es un homenaje a nuestras raíces, elaborado con ingredientes frescos y naturales que resaltan el sabor auténtico de la batata.
+                     Su textura cremosa y su dulzura equilibrada lo convierten en una experiencia única que deleitará a todos los paladares. 
+                     ¡No te lo pierdas!</p>
+
+                </p>
             </div>
         </div>
         
-    <div class="container-card">
+                <center><h2 id="otros">Otros sabores</h2></center>
+        <div class="container-card">
 
-           
+              
         <div class="card">
             <figure>
-                <img src="https://ahaslides.com/wp-content/uploads/2024/02/SEO7515-thumb.webp" />
+                <img src="IMG/descarga4.png.png" />
             </figure>
             <div class="contenido-card">
-            <h3>Mision</h3>
+            <h3>Helados de wanabana</h3>
                 <p>
-                    Brindar a nuestros clientes helados de excelente calidad, elaborados con pasión y dedicación, en un
-                    ambiente acogedor
-                    que fomenta momentos especiales y memorables.
+                Refrescantes, cremosos y con el sabor tropical único de la guanábana. 
+                Un helado suave que conquista con su dulzura natural y un toque exótico que encanta a todos.
                 </p>
     
             </div>
         </div>
         <div class="card">
             <figure>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXNg1phCwz4PrNIBs-TQUqelwxNiKBWnmEyw&s" />
+                <img src="IMG/descarga3.png.jpg" />
             </figure>
             <div class="contenido-card">
-                <h3>vision</h3>
+                <h3>Helados de fresa con leche</h3>
                 <p>
-                    Ser reconocidos como líderes en la elaboración de helados artesanales y tener un carrito o puesto en
-                    cada esquina de todos el pais.
+                Helados de fresa con leche son una delicia cremosa que combina frescura y dulzura.
+                Cada bocado es un viaje a un mundo de sabor, ideal para disfrutar en cualquier momento.
+                </p>
     
             </div>
         </div>
         <div class="card">
             <figure>
-                <img src="https://centresukha.com/wp-content/uploads/2024/06/whatsapp-image-2024-06-13-at-18.55.31.jpeg" />
+                <img src="IMG/descarga1.png.jpg" />
             <div class="contenido-card">
-                <h3>Valores</h3>
+                <h3>Helados de chinola.</h3>
     
-                <p>Excelencia, Responsabilidad, Integridad, Honestidad, Respeto, Creatividad, y Servicio.</p>
+                <p>Ácido, refrescante y lleno de sabor tropical. Nuestro helado de chinola es 
+                    una explosión de frescura perfecta para los que aman lo cítrico con un toque cremoso.   
+                    </p>
     
             </div>
         </div>
