@@ -20,6 +20,8 @@
           <li><a href="producto.php">Productos</a></li>
           <li><a href="blog.php">Novedades</a></li>
           <li><a href="contacto.php">Contacto</a></li>
+          <li class="registro"><a href="registro.php">registro</a></li>
+          <li class="login"><a href="login.php">Iniciar Sesión</a></li>
         </ul>
       </nav>
     </div>
