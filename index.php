@@ -183,7 +183,7 @@
                     <a href="index.html" class="menu-icon"> Inicio </a>
                 </li>
                 <li class="menu-elem">
-                    <a href="equipo.html" class="menu-icon"> Equipo </a>
+                    <a href="equipo.php"class="menu-icon"> Equipo </a>
                 </li>
                 <li class="menu-elem">
                     <a href="contacto.html" class="menu-icon"> Contacto </a>

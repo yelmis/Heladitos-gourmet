@@ -39,6 +39,8 @@
        <title>Registro-Delicias Frias</title>
    </head>
    <body>
+    <center>
+      <div class="container">
        <h2>Registro de Usuario</h2>
        <form method="post" action="">
            Nombre: <input type="text" name="nombre" required><br>
@@ -46,5 +48,72 @@
            Contraseña: <input type="password" name="contraseña" required><br>
            <input type="submit" value="Registrar">
        </form>
+       </div>
+       <h2>Iniciar Sesión</h2>
+         <p>Al registrarte, aceptas nuestros <a href="#">Términos y Condiciones</a>.</p>
+         <p>¿Ya tienes una cuenta? <a href="login.php">Iniciar sesión</a></p> 
+         <bottom>regresa<a href="index.php">Inicio</a></bottom>
+           
+     </center>
+         <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color:#9becda;   
+                margin:20px
+                padding: 20px;
+            }
+              
+
+            .container {
+                max-width: 400px;
+                margin: auto;
+                padding: 20px;
+                background-color: #f9f9f9;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            h2 {
+                color:rbg(255, 030, 0);
+                text-align: center;
+            }
+
+            form {
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            input[type="text"],
+            input[type="email"],
+            input[type="password"] {
+                width: 100%;
+                padding: 10px;
+                margin: 10px 0;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+
+            input[type="submit"] {
+                background-color: #28a745;
+                color: white;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            input[type="submit"]:hover {
+                background-color: #218838;
+            }
+            bottom {
+                display: block;
+                margin-top: 20px;
+                text-align: center;
+            }
+            a {
+                color: #007bff;
+                text-decoration: none;
+            }
    </body>
    </html>

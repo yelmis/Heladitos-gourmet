@@ -85,7 +85,7 @@
                 </li>
                 <li class="icon-elem">
                     <a href="" class="icon">
-                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-instagram">https://www.instagram.com/delicias_frias_srl/</ion-icon>
                     </a>
                 </li>
                 <li class="icon-elem">
@@ -101,16 +101,16 @@
             </ul>
             <ul class="menu">
                 <li class="menu-elem">
-                    <a href="index.html" class="menu-icon"> Inicio </a>
+                    <a href="index.php"class="menu-icon"> Inicio </a>
                 </li>
                 <li class="menu-elem">
-                    <a href="equipo.html" class="menu-icon"> Equipo </a>
+                    <a href="equipo.php"class="menu-icon"> Equipo </a>
                 </li>
                 <li class="menu-elem">
-                    <a href="contacto.html" class="menu-icon"> Contacto </a>
+                    <a href="contacto.php"class="menu-icon"> Contacto </a>
                 </li>
                 <li class="menu-elem">
-                    <a href="index.html" class="menu-icon"> Sobre Nosotros </a>
+                    <a href="index.php"class="menu-icon"> Sobre Nosotros </a>
                 </li>
             </ul>
             <p class="text">&copy; 2025Año| Delicias frias</p>

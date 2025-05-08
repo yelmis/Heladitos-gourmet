@@ -64,12 +64,93 @@ $conn->close();
             <input type="password" id="contraseña" name="contraseña" placeholder="Tu contraseña" required />
             <button type="submit">Entrar</button>
         </form>
+
+        <p>¿No tienes una cuenta? <a href="registro.php">Regístrate aquí</a></p>
+        <p>Al registrarte, aceptas nuestros <a href="#">Términos y Condiciones</a>.</p>
+        <bottom>regresa<a href="index.php">Inicio</a></bottom>
         <?php if ($message): ?>
             <div class="message <?php echo strpos($message, 'exitoso') !== false ? 'success' : 'error'; ?>">
                 <?= htmlspecialchars($message) ?>
             </div>
         <?php endif; ?>
     </div>
+
+      <style> 
+          body {
+                font-family: Arial, sans-serif;
+                background-color: rgb(255, 255, 255);
+                color: #333;
+                margin: 0;
+                padding: 0;
+            }
+    
+            .container {
+                max-width: 400px;
+                margin: 50px auto;
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                background-color: #fff;
+            }
+    
+            h2 {
+                text-align: center;
+            }
+    
+            label {
+                display: block;
+                margin-bottom: 5px;
+            }
+    
+            input[type="text"],
+            input[type="email"],
+            input[type="password"] {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 15px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+            }
+    
+            button {
+                width: 100%;
+                padding: 10px;
+                background-color: #28a745;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+    
+            button:hover {
+                background-color: #218838;
+            }
+    
+            .message {
+                margin-top: 15px;
+                padding: 10px;
+                border-radius: 5px;
+            }
+    
+            .success {
+                background-color: #d4edda; /* Verde claro */
+                color: #155724; /* Verde oscuro */
+            }
+    
+            .error {
+                background-color: #f8d7da; /* Rojo claro */
+                color: #721c24; /* Rojo oscuro */
+            }  
+            bottom {
+                display: block;
+                margin-top: 20px;
+                text-align: center;
+            }
+            a {
+                color: #007bff;
+                text-decoration: none;
+            }
+      </style>
 </body>
 </html>
 </content>
