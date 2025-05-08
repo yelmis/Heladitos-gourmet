@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/inicio.css">
     <link rel="stylesheet" href="CSS/navegador.css">
-    <link rel="icon" href="IMG/png.png">
+    <link rel="icon" href="IMG/bannerjjj.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <title>Inicio - Delicias frias</title>
 </head>
@@ -85,7 +85,7 @@
        
         <div class="container">
             <div class="text-image">
-                <img src="IMG/png.png" alt="Descripción de la imagen" class="imagen">
+                <img src="IMG/bannerjjj.png" alt="logo" class="imagen">
                 <div class="texto">
                     <h2>Acerca de Nosotros</h2>
                     <br>

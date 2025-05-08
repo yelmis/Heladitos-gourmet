@@ -37,6 +37,7 @@
    <html>
    <head>
        <title>Registro-Delicias Frias</title>
+       <link rel="icon" href="IMG/bannerjjj.png">
    </head>
    <body>
     <center>

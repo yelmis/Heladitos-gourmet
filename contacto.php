@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/contacto.css">
-    <link rel="icon" href="IMG/png.png">
+    <link rel="icon" href="IMG/bannerjjj.png">
+    <link rel="stylesheet" href="CSS/navegador.css">
     <title>Contacto -  Delicias Frias </title>
 </head>
 <body>

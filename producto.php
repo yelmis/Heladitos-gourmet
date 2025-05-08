@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/producto.css">
     <link rel="stylesheet" href="CSS/navegador.css">
-    <link rel="icon" href="IMG/png.png">
+    <link rel="icon" href="IMG/bannerjjj.png">
     <title>Productos - Delicias Frias</title>
 </head>
 <body>

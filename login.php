@@ -48,6 +48,7 @@ $conn->close();
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Inicio de Sesión</title>
+    <link rel="icon" href="IMG/bannerjjj.png">
     <link rel="stylesheet" href="CSS/inicio.css" />
   
 

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="CSS/equipo.css">
      <link rel="stylesheet" href="CSS/bootstrap.min.css">
-     <link rel="icon" href="IMG/png.png">
+     <link rel="icon" href="IMG/bannerjjj.png">
     <title>Equipo - Delicias Frias</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
         <div class="container">
                         <h1>Equipo Participante</h1>
                       <div class="team-member" id="member1">
-                         <img src="https://passport-photo.online/images/cms/2_2_in_photo_specifications_2_fe011bfbe1.webp?quality=80&format=webp&width=1920" alt="Nombre 1">
+                         <img src="https://passport-photo.online/images/cms/2_2_in_photo_specifications_2_fe011bfbe1.webp?quality=80&format=webp&width=1920" alt="Nombre 1"
                          <h2>Yelmis J.</h2>
                           <p>Cargo</p>
                        </div>
@@ -33,9 +33,11 @@
                       <p>Cargo</p>
                    </div>
                 </div>
-    
+
+            
+            
     </div>
-              <form action="index.html">
+              <form action="index.php">
             <center><button id="myButton">De regreso </button></center>
             </form>
       <script src="JS/equipo.js"></script>
