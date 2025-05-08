@@ -1,8 +1,8 @@
 .top-bar {
     position: relative;
     width: auto;
-    height: 290px; /* Ajusta según necesites */
-    background-image: url("IMG/banner.gif")!important;
+    height: 290px; 
+    background-image: url("B.gif")!important;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -100,3 +100,21 @@
     display: block;
   }
   
+.registro{
+margin: 10px;
+padding: 10px;
+border-radius: 10px;
+background-color: rgb(0, 0, 0);
+border: 2px solid rgb(255, 0, 0);
+color: rgb(0, 0, 0);
+font-size: 20px;}
+
+.login{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
