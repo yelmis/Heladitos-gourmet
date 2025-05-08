@@ -63,17 +63,17 @@
             <p>Descubre los sabores más populares de Heladitos Gourmet, ¡te encantarán!</p>
             <div class="destacados-grid">
                 <div class="destacado-item">
-                    <img src="https://tse4.mm.bing.net/th?id=OIP.5t1PP2w7FTn5myoubwCQrAHaFk&pid=Api&P=0&h=180" alt="Helado de Chocolate">
-                    <h3>Chocolate Supremo</h3>
-                    <p>Un clásico irresistible con el mejor cacao.</p>
+                    <img src="https://remolacha.net/wp-content/uploads/2020/07/Screen-Shot-2020-07-25-at-10.29.37-AM.png" alt="Helado de batata">
+                    <h3>Batata con pasas</h3>
+                    <p>Un clásico irresistible con el mejor sabor de nuestro Helados.</p>
                 </div>
                 <div class="destacado-item">
-                    <img src="https://tse4.mm.bing.net/th?id=OIP.5t1PP2w7FTn5myoubwCQrAHaFk&pid=Api&P=0&h=180" alt="Helado de Fresa">
-                    <h3>Fresa Natural</h3>
-                    <p>El sabor fresco y dulce de las mejores fresas.</p>
+                    <img src="https://s.yimg.com/ny/api/res/1.2/fpDm3mLK0xS.LywMrkOb2A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTY0MA--/https://media.zenfs.com/es/animal_gourmet_468/8d414eb1766126309c35317bed602150" alt="Helado de coco">
+                    <h3>cocos</h3>
+                    <p>El sabor fresco y dulce de las mejores piñas.</p>
                 </div>
                 <div class="destacado-item">
-                    <img src="https://tse4.mm.bing.net/th?id=OIP.5t1PP2w7FTn5myoubwCQrAHaFk&pid=Api&P=0&h=180" alt="Helado de Mango">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRUpMBguF7lKll9joD7FFNh5LMU_Sz6sBX7Q&s" alt="Helado de Mango">
                     <h3>Mango Tropical</h3>
                     <p>Un toque tropical con la frescura del mango.</p>
                 </div>
@@ -110,7 +110,7 @@
    
         <div class="card">
             <figure>
-                <img src="https://cdn.pixabay.com/photo/2015/06/24/16/36/office-820390_1280.jpg" />
+                <img src="https://ahaslides.com/wp-content/uploads/2024/02/SEO7515-thumb.webp" />
             </figure>
             <div class="contenido-card">
             <h3>Mision</h3>
@@ -124,7 +124,7 @@
         </div>
         <div class="card">
             <figure>
-                <img src="https://cdn.pixabay.com/photo/2015/11/05/09/52/touch-screen-1023966_1280.jpg" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXNg1phCwz4PrNIBs-TQUqelwxNiKBWnmEyw&s" />
             </figure>
             <div class="contenido-card">
                 <h3>vision</h3>
@@ -136,8 +136,7 @@
         </div>
         <div class="card">
             <figure>
-                <img src="https://cdn.pixabay.com/photo/2021/08/05/12/36/software-development-6523979_1280.jpg" />
-            </figure>
+                <img src="https://centresukha.com/wp-content/uploads/2024/06/whatsapp-image-2024-06-13-at-18.55.31.jpeg" />
             <div class="contenido-card">
                 <h3>Valores</h3>
     
@@ -164,7 +163,7 @@
                     </a>
                 </li>
                 <li class="icon-elem">
-                    <a href="" class="icon">
+                    <a href="https://www.instagram.com/delicias_frias_srl/" class="icon">
                         <ion-icon name="logo-instagram"></ion-icon>
                     </a>
                 </li>
