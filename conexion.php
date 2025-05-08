@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost'; // o '127.0.0.1'
 $usuario = 'root'; // usuario por defecto de XAMPP
-$contraseña = 'adonis'; // contraseña por defecto de XAMPP (normalmente está vacía)
+$contraseña = ''; // contraseña por defecto de XAMPP (normalmente está vacía)
 $nombre_bd = 'registro'; // reemplaza con el nombre de tu base de datos
 
 // Crear conexión
@@ -15,7 +15,7 @@ if ($conexion->connect_error) {
 <?php
 $host = 'localhost';
 $usuario = 'root';
-$contraseña = 'adonis';
+$contraseña = '';
 $nombre_bd = 'registro';
 
 $conexion = new mysqli($host, $usuario, $contraseña, $nombre_bd);
