@@ -67,13 +67,23 @@ background-color: #91d9e4;
 }
 
 .container_welcome h2{
-    font-size: 64px;
-    color:red;
+    font-size: 56px;
+    color:rgb(255, 252, 252)!important;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
+@media(max-width: 700px) {
+    .container_welcome h2 {
+        font-size: 28px;
+        
+}
+}
 .container_welcome p{
     font-size: 18px;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 /* Estilos generales para la sección de destacados */
@@ -85,7 +95,7 @@ background-color: #91d9e4;
 
 .container-destacados h2 {
     font-size: 3.5em;
-    color: red;
+    color: rgb(242, 242, 242)!important;
     margin-bottom: 20px;
 }
 

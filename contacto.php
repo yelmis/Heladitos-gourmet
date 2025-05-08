@@ -40,12 +40,12 @@
     </section>
 
 
-    ''
+    
     
     <div class="container-world">
         <center>
         <section id="body-contacto">
-        <form action="https://formsubmit.co/pichardojesus831@gmail.com" method="POST">
+        <form action="https://formsubmit.com/pichardojesus831@gmail.com" method="POST">
       <h2>Contacto</h2>
     <div class="input-group">
         <label for="name"></label>
