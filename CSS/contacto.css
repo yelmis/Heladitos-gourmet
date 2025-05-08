@@ -5,7 +5,7 @@
 }
 
 body{
-        background-color: #9becda !important;
+        background-color: #96ddeb !important;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -23,9 +23,9 @@ body{
 
     form {
     padding: 50px 55px;
-    box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    box-shadow: 0 0 20px rgba(59, 4, 241, 0.906);
     border-radius: 20px;
-    background-color: #91d9e4;
+    background-color: #78def3;
     width: 340px;
 
     }
@@ -41,12 +41,12 @@ body{
 
 h2{
     font-size: 35px;
-    color: red;
+    color: rgb(21, 0, 255);
 
 }
 
 label {
-    color: #283629;
+    color: #db1cf9;
     font-size: 15px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -56,14 +56,14 @@ input, textarea {
     padding: 17px 25px;
     border-radius: 25px;
     margin-bottom: 20px;
-    background-color: rgb(218, 251, 170);
-    border: 2px solid #9becda;
-    color: #333;
+    background-color: rgb(212, 233, 142);
+    border: 2px solid #2a42f4;
+    color: #f11212;
     outline: none;
 }
 
 input::placeholder, textarea::placeholder{
-    color: #555;
+    color: #4d4f4d;
 
 }
 
@@ -76,7 +76,7 @@ input::placeholder, textarea::placeholder{
 }
 
 .form-txt a {
-    color: aliceblue;
+    color: rgb(222, 230, 223);
     font-size:14px;
     font-weight: 600;
     text-decoration: none;
@@ -85,16 +85,16 @@ input::placeholder, textarea::placeholder{
 
 .btn {
     font-size: 16px;
-    color: green;
+    color: rgb(254, 254, 254);
     border: 0;
     border-radius: 25px;
-    background-color: greenyellow;
-    box-shadow: 0 0  25px rgba(25, 254, 0 , 0.4);
+    background-color: rgb(65, 235, 237);
+    box-shadow: 0 0  25px rgba(121, 117, 119, 0.4);
     cursor: pointer;
 }
 
 .btn:hover {
-    background-color: palegoldenrod;
+    background-color: rgb(141, 139, 124);
 
 }
 
@@ -115,7 +115,7 @@ input::placeholder, textarea::placeholder{
     }
 }
 ul{
-    color: #3C3D37;
+    color: #a2a8a3;
     font-size: 12px;
 }
 
@@ -125,7 +125,7 @@ font-size: 6px;
 }
 
 ul li :hover{
-    color: #286bcf;
+    color: #596ad7;
 }
 
 .container-world {
@@ -133,7 +133,7 @@ ul li :hover{
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
-    background-color: #4babda;
+    background-color: #78abed;
 }
 
 /*navegado inicio*/
@@ -186,7 +186,7 @@ ul li :hover{
   }
   
   .menu-toggle:active{
-    color: red;
+    color: rgb(85, 182, 234);
   }
 
   /* Enlaces del menú */
@@ -210,7 +210,7 @@ ul li :hover{
   
   nav ul li a {
     text-decoration: none;
-    color: rgb(255, 15, 15);
+    color: rgb(79, 245, 217);
     font-size:40px;
     font-weight: bold;
   }

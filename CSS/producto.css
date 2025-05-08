@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #9becda;
+    background-color: #9bcbea;
     /* Cambia la ruta a la ubicación de tu imagen */
     background-size: cover;
     /* Ajusta la imagen para cubrir todo el fondo */
@@ -55,7 +55,7 @@ ul li :hover {
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
-    background-color: #4babda;
+    background-color: #555555;
 }
 .navbar {
     display: flex;
