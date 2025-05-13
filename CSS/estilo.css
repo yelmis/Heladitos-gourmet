@@ -1,0 +1,139 @@
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color:rgb(255,  211, 78);
+    /* Color de fondo atractivo */
+    color: white;
+    /* Color del texto */
+    padding: 15px 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #c0c96d;
+    /* Color de los enlaces */
+    text-decoration: none;
+    font-size: 18px;
+    /* Tamaño de fuente atractivo */
+    transition: color 0.3s;
+    /* Transición suave para el hover */
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+    /* Color al pasar el mouse */
+}
+
+/* Estilos para el carrito */
+.cart-icon {
+    position: relative;
+}
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+
+/* Estilos para el banner */
+.banner {
+    background-image: url('IMG/bannr.jpg.png') !important;
+    /* Cambia la ruta a tu imagen */
+    height: 295px;
+    /* Altura del banner */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* Color del texto en el banner */
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    /* Sombra para el texto */
+}
+
+/* Cambios de color de fondo y texto */
+body {
+    background-color: #e9efb7;
+    /* Color de fondo de la página */
+    font-family: 'Roboto', sans-serif;
+    /* Tipografía moderna */
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+    /* Color de los encabezados */
+}
+
+p {
+    color: #555;
+    /* Color del texto del párrafo */
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        /* Ocultar enlaces en pantallas pequeñas */
+        flex-direction: column;
+        /* Cambiar a columna */
+        position: absolute;
+        top: 60px;
+        /* Ajustar posición */
+        left: 0;
+        background-color: #4babda;
+        /* Fondo del menú desplegable */
+        width: 100%;
+        /* Ancho completo */
+    }
+
+    .nav-links.active {
+        display: flex;
+        /* Mostrar enlaces cuando se activa */
+    }
+
+    .menu-toggle {
+        display: flex;
+        /* Mostrar botón de menú en pantallas pequeñas */
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .menu-toggle .bar {
+        height: 5px;
+        width: 30px;
+        background-color: #fff;
+        margin: 3px 0;
+    }
+
+    .banner {
+        height: 150px;
+        /* Ajustar altura del banner en pantallas pequeñas */
+    }
+
+    .banner h1 {
+        font-size: 20px;
+        /* Ajustar tamaño de fuente en pantallas pequeñas */
+    }
+}
